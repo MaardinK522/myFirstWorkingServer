@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yummm ....</title>
+  </head>
+
+    <body>
+        <center class="background">
+            <h1>Food Delivery App</h1>
+            <i>
+                <h2>Good Food, Good Mood</h2>
+            </i>
+            <input type="text" id="user_search_bar" placeholder=" Search for restaurants near you... " class="user_search_bar">
+        </center>
+
+        <center>
+                <i>
+                    <h2><ins>Delicious food waiting for you to have it</ins></h2> 
+                </i>
+                <br>
+            <div class="item">
+                <div class="image">
+                    <a href="https://www.teapost.in/">
+                        <img src="tea-post.jpg" alt="Tea post" width="100%">
+                    </a>
+                    <h3><b>Tea post</b></h3>
+                </div>
+
+                <div class="image">
+                    <a href="https://kathijunction.com/">
+                        <img src="kathi junction.jpg" alt="Kathi junction" width="100%">
+                    </a>
+                    <h3><b>Kathi junction</b></h3>
+                </div>
+
+                <div class="image">
+                    <a href="https://wokandchops.com/">
+                        <img src="wok and chops.png" alt="wok and chops" width="100%">
+                    </a>
+                    <h3><b>Wok and chop</b></h3>
+                </div>
+
+                <div class="image">
+                    <a href="http://jagdish-farshan.com/">
+                        <img src="jagdish.webp" alt="Jagdish farshan" width="100%">
+                    </a>
+                    <h3><b>Jagdish</b></h3>
+                </div>
+
+                <div class="image">
+                    <a href="https://thebelgianwaffle.co/">
+                        <img src="belgium waffle.jpg" alt="Belgium waffle" width="100%">
+                    </a>
+                    <h3><b>Belgium waffle</b></h3>
+                </div>
+                        
+            </div>
+        </center>
+    </body>
+
+    <style>
+        .background {
+            background-color: lightgrey;
+        }
+
+        .user_search_bar {
+            width: 400px;
+            text-align: center;
+            font: black;
+            margin: 20px 40px;
+            height: 50px;
+            font-size: 20px;
+            padding: 18px;
+            border-radius: 9px;
+            border: #000000 solid 3px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .image {
+            float: left;
+            width: 31.5%;
+            margin: 9px;
+            border: #000000 solid 3px;
+            border-radius: 6px;
+        }
+
+        .image:hover {
+            background-color: gray;
+        }
+
+        .item::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</html>

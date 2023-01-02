@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    
+    </body>
+    <script src="https://unpkg.com/orbiton@latest/umd/orbiton.production.js" crossorigin>
+            import Orbiton from "orbiton";
+
+const Button = (
+  <button
+    onClick={() => {
+      alert("Clicked");
+    }}
+  >
+    Click me
+  </button>
+);
+
+Orbiton.append(Button, document.getElementById("root"));
+    </script>
+</html>
