@@ -14,6 +14,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "html": "^1.0.0",
+    "mysql": "^2.18.1",
     "orbiton": "^1.2.44"
   }
 }
