@@ -3,7 +3,6 @@ const mysql = require("mysql");
 const app = express();
 const port = 5432;
 
-
 const dbConnection = mysql.createConnection({
   host: "localhost",
   port: 9898,
@@ -22,8 +21,8 @@ app.listen(port, () => {
   console.log("Project backend app listening on port " + port);
   dbConnection.connect((err) => {
     if (err) {
-      console.log(err)
+      console.log(err);
     }
-    console.log('Successfully connected to Database');
+    console.log("Successfully connected to Database");
   });
 });
